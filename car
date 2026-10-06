@@ -1,0 +1,19 @@
+class Car:
+    def __init__(self, name):
+        self.name = name 
+
+    def start(self):
+        print(f"{self.name} روشن  ")
+
+    def honk(self):
+        print("بوق ")
+
+    def stop(self):
+        print(f"{self.name} خاموش ")
+
+
+my_car = Car(" ۲۰۶")
+
+my_car.start()
+my_car.honk()
+my_car.stop()
